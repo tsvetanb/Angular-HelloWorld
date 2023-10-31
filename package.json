@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
     "dev": "ng build --deploy-url http://localhost:8036/ui-app/ && angular-http-server --path ./dist/angular-hello-world"
   },
   "private": true,
